@@ -1,0 +1,38 @@
+@font-face {
+	font-family: brushsci;
+	src: url(../fonts/brushsci.ttf)
+}
+@font-face {
+	font-family: cream_cake;
+	src: url(../fonts/Cream_Cake.ttf)
+}
+
+#spaceText{
+    position: absolute;
+}
+#photo {
+    width: 100%;
+    float: left;
+}
+.nameText{
+    border: 0;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: brushsci;
+    margin-top: -42px !important;
+}
+
+.sel_cor{
+    display: block;
+    width: 40%;
+    padding: 3px;
+    margin: 5px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
